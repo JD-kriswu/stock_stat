@@ -39,7 +39,6 @@ func (ins *FilterService) FilterLHBCode(rawList []RawDataLHB) ([]string, error) 
 	for _, item := range rawList {
 
 		xiweiList := item.XiWei
-,
 		//计算总量
 		var buyTotal float64
 		var sellTotal float64
